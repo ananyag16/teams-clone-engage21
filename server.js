@@ -36,5 +36,4 @@ io.on('connection',socket =>{ //if the event, that is, connection is successful,
     })
 })
 
-
-server.listen(3030);
+server.listen(process.env.PORT||3030);
