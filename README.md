@@ -12,6 +12,12 @@ This uses:
 
 It is hosted on Heroku currently, the demo can be found at https://sleepy-tundra-17292.herokuapp.com/
 
+Timeline:
+Week1: Exploring new technologies like webRTC, jitsi, etc.
+Week2: Watching tutorials, learning the basics and the theory.
+Week3: Building a basic video calling software.
+Week4: Hosting the software and introducing additional features.
+
 ### How to run?
 Download all the above tools including node modules and run the command "node server.js"
 
