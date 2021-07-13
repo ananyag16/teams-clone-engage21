@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#video-grid{
+    display: flex;
+    justify-content: center;
+}
+
+video {
+    height: 240px;
+    width: 320px;
+    object-fit: cover;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+}
+
+.main__left{
+    display: flex;
+    flex-direction: column;
+    flex: 0.8;
+}
+
+.main__right{
+    flex: 0.2;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(77, 44, 107);
+}
+.main__controls{
+    display: flex;
+    background-color: rebeccapurple;
+    color: white;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.main__controls__block{
+    display: flex;
+}
+
+.main__controls__button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10px;
+    min-width: 80px;
+    cursor: pointer;
+}
+
+.main__controls__button i {
+    font-size: 20px;
+}
+
+.main__controls__button:hover{
+    background-color: rgb(123, 72, 165);
+    border-radius: 5px;
+}
+.main__videos{
+    flex-grow: 1;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exit_room{
+    background-color: orangered;
+    padding: 5px;
+    border-radius: 15px;
+    width: 80px;
+    text-align: center;
+}
+
+.fa-phone-slash:before {
+    content: "\f3dd";
+    color: red;
+}
+
+.main__header {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    background-color: rgb(99, 71, 126);
+}
+
+.main__message_container {
+    padding: 20px 10px;
+    display: flex;
+}
+
+.main__chat_window{
+    flex-grow: 1;
+    overflow-y: scroll;
+}
+
+.main__message_container input {
+    flex-grow: 1;
+    background-color: transparent;
+    border-color:whitesmoke;
+    color: #F5F5F5;
+}
+
+.messages{
+    color: white;
+    list-style: none;
+    font-size: small;
+}
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  /* The actual popup (appears on top) */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
