@@ -12,7 +12,7 @@ This uses:
 
 It is hosted on Heroku currently, the demo can be found at https://sleepy-tundra-17292.herokuapp.com/
 
-Timeline:
+Timeline:<br/>
 Week1: Exploring new technologies like webRTC, jitsi, etc. <br/>
 Week2: Watching tutorials, learning the basics and the theory.<br/>
 Week3: Building a basic video calling software.<br/>
