@@ -12,7 +12,7 @@ This uses:
 
 It is hosted on Heroku currently, the demo can be found at https://sleepy-tundra-17292.herokuapp.com/
 
-###How to run?
+### How to run?
 Download all the above tools including node modules and run the command "node server.js"
 
 
