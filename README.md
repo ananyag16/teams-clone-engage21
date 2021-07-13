@@ -10,6 +10,12 @@ This uses:
 4. Node.js
 5. Express.js
 
+It is hosted on Heroku currently, the demo can be found at https://sleepy-tundra-17292.herokuapp.com/
+
+###How to run?
+Download all the above tools including node modules and run the command "node server.js"
+
+
 References:
 https://www.youtube.com/watch?v=ZVznzY7EjuY&t=11764s \\
 https://www.w3schools.com/howto/howto_js_popup.asp
